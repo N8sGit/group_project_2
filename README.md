@@ -15,10 +15,9 @@ The Wine Quality Predictor is a machine learning project aimed at predicting the
 6. [Model Training](#model-training)
 7. [Evaluation](#evaluation)
 8. [Results](#results)
-9. [Contributing](#contributing)
-10. [License](#license)
-11. [Team](#team)
-12. [References](#references)
+9. [License](#license)
+10. [Team](#team)
+11. [References](#references)
 
 ## Introduction
 
@@ -106,29 +105,21 @@ python evaluate.py --model models/wine_quality_model.pkl --input data/test_wine_
 
 The project involved extensive exploratory data analysis, including descriptive statistics, correlation heatmaps, box plots, histograms, violin plots, and p-value analysis (which did not provide significant results). Key steps included:
 
-## Describe Chart
+### Describe Chart
+![Describe chart](describe_chart.png)
+### Correlation Heatmap
+![correlation heatmap](correlation_heatmap.png)
+### Box Plot
+![box plot](box_plot.png)
+### Histogram Charts
+![histogram chart](histogram_chart.png)
+### Violinplots
+![violin plot](violion_plot.png)
 
-## Correlation Heatmap
+- `Analyzing the 'Quality' variable for correlation and removing highly correlated variables (free sulfur dioxide and density).`
+- `Reviewing the distribution of all variables and removing outliers for model training.`
 
-## Box Plot
-
-## Histogram Charts
-
-## Violinplots
-
-Analyzing the 'Quality' variable for correlation and removing highly correlated variables (free sulfur dioxide and density).
-Reviewing the distribution of all variables and removing outliers for model training.
 The key takeaway is that alcohol is the best predictor for high-quality wine using a Random Forest Model. Detailed results and visualizations can be found in the results/ directory.
-
-## Contributing
-
-Contributions are welcome! Please follow these steps:
-
-1. Fork the repository
-2. Create a new branch (`git checkout -b feature-branch`)
-3. Make your changes and commit (`git commit -am 'Add new feature'`)
-4. Push to the branch (`git push origin feature-branch`)
-5. Create a new Pull Request
 
 ## License
 
@@ -146,13 +137,3 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 ## References
 
 - Kaggle.com: P. Cortez, A. Cerdeira, F. Almeida, T. Matos, and J. Reis. Modeling wine preferences by data mining from physicochemical properties. In Decision Support Systems, Elsevier, 47(4):547-553, 2009.
-
----
-
-Feel free to reach out if you have any questions or need further assistance. Enjoy predicting wine quality!
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
-
----
-
-Feel free to reach out if you have any questions or need further assistance. Enjoy predicting wine quality!
