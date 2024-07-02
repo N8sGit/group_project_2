@@ -1,4 +1,4 @@
-## Project Overview
+## Project 2 Overview
 # This project explored using Machine Learning to predict the quality of Vinho Verde wine (Red and White) from Portugal's northwest region. 
 
 ### Team members
@@ -36,6 +36,9 @@ Exploratory data analysis involved the following methods:
 * histogram charts <br/>
 * p-value analysis <br/>
 * violinplots <br/>
+
+![image](https://github.com/N8sGit/group_project_2/assets/163077507/7823057f-4225-4b86-90cd-2bc1c8500369)
+
 ![image](https://github.com/N8sGit/group_project_2/assets/163077507/b1e2c31c-3d91-44f8-80e7-81ee8836fa87)
 
 
