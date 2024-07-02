@@ -36,6 +36,7 @@ Exploratory data analysis involved the following methods:
 * histogram charts <br/>
 * p-value analysis <br/>
 * violinplots <br/>
+![image](https://github.com/N8sGit/group_project_2/assets/163077507/b1e2c31c-3d91-44f8-80e7-81ee8836fa87)
 
 
 The following steps were taken:
