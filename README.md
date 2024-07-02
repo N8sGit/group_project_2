@@ -31,15 +31,16 @@ Variables kept for the analysis of this project are as follows:
        
 Exploratory data analysis involved the following methods:
 * Describe <br/>
+![image](https://github.com/N8sGit/group_project_2/assets/163077507/f2288b2f-539f-4987-970c-2575012f9110)
 * Correlation heatmap <br/>
-* box plot <br/>
-* histogram charts <br/>
-* p-value analysis <br/>
-* violinplots <br/>
-
 ![image](https://github.com/N8sGit/group_project_2/assets/163077507/7823057f-4225-4b86-90cd-2bc1c8500369)
-
-![image](https://github.com/N8sGit/group_project_2/assets/163077507/b1e2c31c-3d91-44f8-80e7-81ee8836fa87)
+* box plot <br/>
+![image](https://github.com/N8sGit/group_project_2/assets/163077507/0d480594-9f1c-46bc-a09f-9681cd6c3f01)
+* histogram charts <br/>
+![image](https://github.com/N8sGit/group_project_2/assets/163077507/95c84092-fd42-4ac6-8f86-b41885176f7c)
+* violinplots <br/>
+![image](https://github.com/N8sGit/group_project_2/assets/163077507/04ad41dc-3e4a-4821-8a9b-c05631f6545a)
+* p-value analysis that did not provide any significant results <br/> 
 
 
 The following steps were taken:
