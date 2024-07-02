@@ -1,5 +1,4 @@
-# Wine Quality Predictor
-
+![Wine Quality Predictor](wine_quality_predictor.jpg)
 
 ## Overview
 
