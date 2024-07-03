@@ -1,6 +1,6 @@
 
 
-![Wine Quality Predictor](wine_quality_predictor.jpg)
+![Wine Quality Predictor](images/wine_quality_predictor.jpg)
 
 ## Overview
 
@@ -100,19 +100,19 @@ The project involved extensive exploratory data analysis, including descriptive 
 - Reviewing the distribution of all variables and removing outliers for model training.
 
 ### Describe Chart
-![Describe chart](describe_chart.png)
+![Describe chart](images/describe_chart.png)
 
 ### Correlation Heatmap
-![Correlation Heatmap](correlation_heatmap.png)
+![Correlation Heatmap](images/correlation_heatmap.png)
 
 ### Box Plot
-![Box Plot](box_plot.png)
+![Box Plot](images/box_plot.png)
 
 ### Histogram Charts
-![Histogram Chart](histogram_chart.png)
+![Histogram Chart](images/histogram_chart.png)
 
 ### Violinplots
-![Violinplots](violion_plot.png)
+![Violinplots](images/violion_plot.png)
 
 The key takeaway is that alcohol is the best predictor for high-quality wine using a Random Forest Model. Detailed results and visualizations can be found in the `results/` directory.
 
