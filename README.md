@@ -1,5 +1,6 @@
-![Wine Quality Predictor](wine_quality_predictor.jpg)
 
+
+![Wine Quality Predictor](wine_quality_predictor.jpg)
 
 ## Overview
 
@@ -55,7 +56,7 @@ The dataset contains the following columns:
 To run this project locally, you'll need Python and additional libraries installed. Use the following command to install the required libraries:
 
 ```bash
-pip install -r requirements.txt
+pip install pandas numpy scikit-learn imbalanced-learn matplotlib statsmodels
 ```
 
 ## Usage
@@ -63,63 +64,57 @@ pip install -r requirements.txt
 1. **Clone the repository:**
 
 ```bash
-git clone https://github.com/your-username/wine-quality-predictor.git
-cd wine-quality-predictor
+git clone git@github.com:N8sGit/group_project_2.git
+cd group_project_2
 ```
 
 2. **Prepare the data:**
 
 Place your wine dataset CSV files (`wine_data_white.csv`, `wine_data_red.csv`, `wine_data_both.csv`) in the `data/` directory.
 
-3. **Run the prediction script:**
+3. **Open the Jupyter Notebook:**
 
-```bash
-python predict.py --input data/wine_data_both.csv
-```
+Launch Jupyter Notebook and open the notebook file (e.g., `main.ipynb`). Run all cells to execute the code.
 
 ## Model Training
 
 To train the model, follow these steps:
 
-1. **Preprocess the data:**
+1. **Open the Jupyter Notebook:**
 
-```bash
-python preprocess.py --input data/wine_data_both.csv --output data/processed_wine_data.csv
-```
-
-2. **Train the model:**
-
-```bash
-python train.py --input data/processed_wine_data.csv --output models/wine_quality_model.pkl
-```
+Launch Jupyter Notebook and open the notebook file (e.g., `main.ipynb`). Run all cells to preprocess the data, train the model, and save the trained model.
 
 ## Evaluation
 
-Evaluate the model's performance using the test dataset:
+To evaluate the model's performance:
 
-```bash
-python evaluate.py --model models/wine_quality_model.pkl --input data/test_wine_data.csv
-```
+1. **Open the Jupyter Notebook:**
+
+Launch Jupyter Notebook and open the notebook file (e.g., `main.ipynb`). Run all cells to evaluate the model using the test dataset.
 
 ## Results
 
 The project involved extensive exploratory data analysis, including descriptive statistics, correlation heatmaps, box plots, histograms, violin plots, and p-value analysis (which did not provide significant results). Key steps included:
 
+- Analyzing the 'Quality' variable for correlation and removing highly correlated variables (free sulfur dioxide and density).
+- Reviewing the distribution of all variables and removing outliers for model training.
+
 ### Describe Chart
 ![Describe chart](describe_chart.png)
+
 ### Correlation Heatmap
-![correlation heatmap](correlation_heatmap.png)
+![Correlation Heatmap](correlation_heatmap.png)
+
 ### Box Plot
-![box plot](box_plot.png)
+![Box Plot](box_plot.png)
+
 ### Histogram Charts
-![histogram chart](histogram_chart.png)
+![Histogram Chart](histogram_chart.png)
+
 ### Violinplots
-![violin plot](violion_plot.png)
+![Violinplots](violion_plot.png)
 
-- `Analyzing the 'Quality' variable for correlation and removing highly correlated variables (free sulfur dioxide and density).`
-- `Reviewing the distribution of all variables and removing outliers for model training.`
-
-The key takeaway is that alcohol is the best predictor for high-quality wine using a Random Forest Model. Detailed results and visualizations can be found in the results/ directory.
+The key takeaway is that alcohol is the best predictor for high-quality wine using a Random Forest Model. Detailed results and visualizations can be found in the `results/` directory.
 
 ## License
 
@@ -137,3 +132,4 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 ## References
 
 - Kaggle.com: P. Cortez, A. Cerdeira, F. Almeida, T. Matos, and J. Reis. Modeling wine preferences by data mining from physicochemical properties. In Decision Support Systems, Elsevier, 47(4):547-553, 2009.
+```
