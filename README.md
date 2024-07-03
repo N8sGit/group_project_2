@@ -66,29 +66,25 @@ git clone git@github.com:N8sGit/group_project_2.git
 cd group_project_2
 ```
 
-2. **Prepare the data:**
+## Methodology 
 
-Place your wine dataset CSV files (`wine_data_white.csv`, `wine_data_red.csv`, `wine_data_both.csv`) in the `data/` directory.
+2. ***Data Preparation***  
+* Synthetic data generation to correct extreme imbalances between the minority class (n=5) and majority class (n=2836).  
+* Binning to correct for extreme data imbalances (merging the minority classes at the ends of the distribution)
+* Noise elimination: Uses IsolationForest model to detect and remove outliers. 
+* Feature selection: Uses Lasso Regression, mean squared error calculation, and variance inflation factor to detect the most what features don’t contribute to or distort the model. 
 
-3. **Open the Jupyter Notebook:**
+3. ***Model Selection***
+* Hyper-parameter tuning 
+* RandomizedSearchCV to traverse a randomized subspace 
+* Manual experimentation and trial and error to determine that RandomForestClassifier is the most reliably performing algorithm 
 
-Launch Jupyter Notebook and open the notebook file (e.g., `main.ipynb`). Run all cells to execute the code.
+4. ***Model Validation***
+* Cross Validation to confirm consistency of results across several randomized folds
+* A/B testing against raw data to contrast with our changes 
 
-## Model Training
-
-To train the model, follow these steps:
-
-1. **Open the Jupyter Notebook:**
-
-Launch Jupyter Notebook and open the notebook file (e.g., `main.ipynb`). Run all cells to preprocess the data, train the model, and save the trained model.
-
-## Evaluation
-
-To evaluate the model's performance:
-
-1. **Open the Jupyter Notebook:**
-
-Launch Jupyter Notebook and open the notebook file (e.g., `main.ipynb`). Run all cells to evaluate the model using the test dataset.
+5.  ***Model Interpretation***
+* Feature Importance comparison and analysis  
 
 ## Results
 
@@ -130,74 +126,3 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 ## References
 
 - Kaggle.com: P. Cortez, A. Cerdeira, F. Almeida, T. Matos, and J. Reis. Modeling wine preferences by data mining from physicochemical properties. In Decision Support Systems, Elsevier, 47(4):547-553, 2009.
-
-=======
-## Project 2 Overview
-# This project explored using Machine Learning to predict the quality of Vinho Verde wine (Red and White) from Portugal's northwest region. 
-
-Started with project ideation, sourcing data & transforming it using excel and python to a usable dataframe and csv file. Then used Power BI to quickly gather insights on the downloaded dataset and assess the feasibility of our hypothesis. Python was used for formatting and exploratory data analysis. 
-
-We utilized two datasets from the kaggle.com in CSV format named "wine_data_white.csv" and "wine_data_red.csv" that were combined into "wine_data_both.csv".
-
-Github was used for code repository, presentation deck and README file. Finally built visualizations using Matplotlib. Both top-down and bottom-up approachs were adopted to define the narrative, synthesizing of information/charts, and ensuring they answer the questions we set out to address.
-
-### Process
-A data frame called "combined_data" isolates only the necessary columns and drops the 'NaN' values.
-Variables kept for the analysis of this project are as follows:
-
-- 'Index',  <br/>
-- 'fixed acidity',  <br/>
-- 'volatile acidity', <br/> 
-- 'citric acid', <br/>
-- 'residual sugar',  <br/>
-- 'chlorides',  <br/>
-- 'free sulfur dioxide', <br/>
-- total sulfur dioxide', <br/> 
-- 'density',  <br/>
-- 'pH',  <br/>
-- 'sulphates',  <br/>
-- 'alcohol', <br/>
-- 'quality' <br/>
-       
-Exploratory data analysis involved the following methods:
-* Describe <br/>
-![image](https://github.com/N8sGit/group_project_2/assets/163077507/f2288b2f-539f-4987-970c-2575012f9110)
-* Correlation heatmap <br/>
-![image](https://github.com/N8sGit/group_project_2/assets/163077507/7823057f-4225-4b86-90cd-2bc1c8500369)
-* box plot <br/>
-![image](https://github.com/N8sGit/group_project_2/assets/163077507/0d480594-9f1c-46bc-a09f-9681cd6c3f01)
-* histogram charts <br/>
-![image](https://github.com/N8sGit/group_project_2/assets/163077507/95c84092-fd42-4ac6-8f86-b41885176f7c)
-* violinplots <br/>
-![image](https://github.com/N8sGit/group_project_2/assets/163077507/04ad41dc-3e4a-4821-8a9b-c05631f6545a)
-* p-value analysis that did not provide any significant results <br/> 
-
-
-The following steps were taken:
-1. The target variable of 'Quality' was analyzed for correlation and highly correlated variables were removed '(Free sulfur dioxide' and 'density'.
-2. The distribution of all the variables were reviewed and outliers were removed for the purposes of training the model
-3.  
-
-### Conclusion
-The Key Takeaways are that alcohol is the best predictor for High quality wine using a Random Forest Model.
-
-Dataset
-
-### Team members
-* Elizabeth Arias <br/>
-* Dawn Kim <br/>
-* Christian Leon <br/>
-* Nathan Anecone <br/>
-* Ian Cody <br/>
-* Kyle Prudente <br/>
-
-### Tools for Analysis
-- Jupyter Notebook
-- Google Collab
-- Github
-- Kaggle
-
-
-### References
-Kaggle.com
-P. Cortez, A. Cerdeira, F. Almeida, T. Matos and J. Reis. Modeling wine preferences by data mining from physicochemical properties. In Decision Support Systems, Elsevier, 47(4):547-553, 2009.
