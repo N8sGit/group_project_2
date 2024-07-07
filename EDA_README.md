@@ -57,7 +57,38 @@
  
  ![Alt text](Resources/figs/combined/unscaled/Combined_Unscaled_Box_Plot.png)
  
- ![Alt text](Resources/figs/combined/unscaled/combined_unscaled_principal_components.png)
+ 
+
+
+**The boxplot shows that with unscaled data the preponderant features are  'free sulfur dioxide' & 'total sulfur dioxide' which holds true in the individual plots for the red and white categories as well.**
+ 
+ 
+ 
+
+
+![Alt text](Resources/figs/combined/unscaled/combined_unscaled_principal_components.png)
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
  
  
  
