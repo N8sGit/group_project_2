@@ -492,7 +492,7 @@
  
  
  
-**After scaling like in the white wines the features which influenced the principal components changed in this case 'residual sugars' effect was greatly reduced by scaling  to the point that it was relegated to 5th place on PC 2. It appears that scaling could have an impact on model development, it will depend on how model behavior and performance.
+**After scaling like in the white wines the features which influenced the principal components changed in this case 'residual sugars' effect was greatly reduced by scaling  to the point that it was relegated to 5th place on PC 2. It appears that scaling could have an impact on model development, it will depend on how model behavior and performance.**
  
  
  
