@@ -36,7 +36,7 @@
    
 **The '*Wine*' is classified in two categories <font color='red'>'Red'</font> & <font color='lightgrey'>'White'</font> and graded on a '*quality*' scale from 3-9. There are 13 descriptive features with 6497 samples non of which are null as noted above.** 
    
-#### Class imbalance   
+### **Class imbalance **  
  
  ![Alt text](Resources/figs/combined/prelim/quality_count.png)
  
@@ -51,8 +51,13 @@
  
  
  
+ ### **PCA**
  
  
+ 
+ ![Alt text](Resources/figs/combined/unscaled/Combined_Unscaled_Box_Plot.png)
+ 
+ ![Alt text](Resources/figs/combined/unscaled/combined_unscaled_principal_components.png)
  
  
  
