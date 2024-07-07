@@ -67,6 +67,37 @@
 
 
 ![Alt text](Resources/figs/combined/unscaled/combined_unscaled_principal_components.png)
+
+
+
+![Alt text](Resources/figs/combined/unscaled/combined_unsc_pc_scatter.png)
+
+
+
+
+
+![Alt text](Resources/figs/combined/unscaled/Combined_Unscaled_PC_1.png)                PC1 top 3 feautres are 
+
+                                                                                      total sulfur dioxide    0.972167
+                                                                                      free sulfur dioxide     0.230482
+                                                                                      residual sugar          0.041020
+                                                                                      
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+**After the PCA 99.9% of the variance can be explained with 3 principal components
  
  
  
