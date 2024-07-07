@@ -185,9 +185,9 @@
 
                         PC1 top 10 feautres are 
 
-                       residual sugar          0.995192
-                       alcohol                 0.082723
-                       total sulfur dioxide    0.042789
+                       residual sugar          99.52%
+                       alcohol                  8.27%
+                       total sulfur dioxide     4.29%
 
 
 
