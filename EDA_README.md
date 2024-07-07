@@ -194,7 +194,7 @@
 
 
 
-**When examined individually the unscaled data for the wine categories show that almost all of the variance can be explained with the first principal component, and like the combined data set in white wines 'total sulfur dioxide' weilds significant sway  within it as oposed to the red wines where 'residual sugar' is the feature with the most impact.**
+**When examining the wine categories individually almost all of the variance can be explained with the first principal component PC 1 , and like the combined data set in white wines 'total sulfur dioxide' weilds significant sway  within it as oposed to the red wines where 'residual sugar' is the feature with the most impact.**
 
 
 
