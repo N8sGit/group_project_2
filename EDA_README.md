@@ -311,10 +311,10 @@
                    
                    PC4 top 9 feautres are 
 
-                  sulphates               0.640536
-                  pH                      0.414551
-                  free sulfur dioxide     0.357279
-                  citric acid             0.264300
+                  sulphates               64.05%
+                  pH                      41.45%
+                  free sulfur dioxide     35.72%
+                  citric acid             26.43%
 
 
 
@@ -333,10 +333,10 @@
 
                    PC5 top 9 feautres are 
 
-                  chlorides               0.614391
-                  pH                      0.453376
-                  residual sugar          0.353362
-                  density                 0.306561
+                  chlorides               61.43%
+                  pH                      45.33%
+                  residual sugar          35.33%
+                  density                 30.65%
 
  
  
