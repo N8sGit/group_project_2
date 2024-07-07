@@ -341,17 +341,68 @@
  
  
  
+ ---
+ 
+ ### White Wines
+ 
+ 
+ 
+ 
+ ![Alt text](Resources/figs/white/scaled/white_scaled_principal_components.png)
+ 
+ ![Alt text](Resources/figs/white/scaled/white_sc_pc_scatter.png)
+ 
+ 
+ 
+ 
+ ![Alt text](Resources/figs/white/scaled/white_scaled_PC_1.png)
+ 
+                     PC1 top 9 feautres are 
+
+                    density                 0.511524
+                    alcohol                 0.437238
+                    residual sugar          0.427408
+                    total sulfur dioxide    0.406652
+                    free sulfur dioxide     0.300334
+ 
+ 
+ 
+ 
+ 
+ ![Alt text](Resources/figs/white/scaled/white_scaled_PC_2.png)
+ 
+ 
+
+
+
+
+
+                    PC2 top 9 feautres are 
+
+                   fixed acidity           0.587558
+                   pH                      0.581344
+                   citric acid             0.345295
+                   free sulfur dioxide     0.290355
+                   total sulfur dioxide    0.244032
+ 
+ 
+ 
+ 
+ 
+ ![Alt text](Resources/figs/white/scaled/white_scaled_PC_2.png)
  
  
  
  
  
  
- 
- 
- 
- 
- 
+                     PC3 top 9 feautres are 
+
+                   volatile acidity        0.590971
+                   citric acid             0.504397
+                   sulphates               0.433244
+                   free sulfur dioxide     0.279410
+                   residual sugar          0.214320
  
  
  
