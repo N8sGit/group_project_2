@@ -7,9 +7,9 @@
 ### Dataset
 
 #### Column                           Non-Null Count     Dtype 
-**Data columns (total 13 columns):
+**Data columns (total 13 columns):**
 ---  ------                --------------    -----  
- 0   fixed acidity         6497 non-null     float64
+ **0   fixed acidity         6497 non-null     float64
  1   volatile acidity      6497 non-null     float64
  2   citric acid           6497 non-null     float64
  3   residual sugar        6497 non-null     float64
@@ -25,8 +25,8 @@
 
 
     fixed   volatile   citric   residual   chlorides      free      total      density     pH     sulphates   alcohol   quality    Wine
-           acidity     acid      sugar                  sulfur     sulfur
-                                                       dioxide     dioxide     
+            acidity     acid      sugar                  sulfur     sulfur
+                                                        dioxide     dioxide     
     7.0      0.27       0.36      20.7       0.045        45.0       170.0      1.0010    3.00      0.45        8.8        6        White
     6.3      0.30       0.34       1.6       0.049        14.0       132.0      0.9940    3.30      0.49        9.5        6        White
     8.1      0.28       0.40       6.9       0.050        30.0       97.0       0.9951    3.26      0.44       10.1        6        White
@@ -34,7 +34,34 @@
     7.2      0.23       0.32       8.5       0.058        47.0       186.0      0.9956    3.19      0.40        9.9        6        White
    
    
-**The '*Wine*' is classified in two categories <font color='red'>'Red':</font> & <font color='lightgrey'>'White':</font> and graded on a '*quality*' scale from 3-9. There are 13 descriptive features with 6497 samples non of which are null as noted above. 
+**The '*Wine*' is classified in two categories <font color='red'>'Red'</font> & <font color='lightgrey'>'White'</font> and graded on a '*quality*' scale from 3-9. There are 13 descriptive features with 6497 samples non of which are null as noted above.** 
    
-   
- ![Alt text](Resources/figs/combined/prelim/red_vs_white_countplot.png)
+#### Class imbalance   
+ 
+ ![Alt text](Resources/figs/combined/prelim/quality_count.png)
+ 
+ ![Alt text](Resources/figs/combined/prelim/red_vs_white_countplot.png)  
+ 
+ ![Alt text](Resources/figs/combined/prelim/Combined_Quality_Count.png)
+ 
+ 
+ ![Alt text](Resources/figs/combined/prelim/Combined_Quality_Count.png)
+ 
+ 
+**The figures above point out a extreme imbalance, approximately 3(white) to 1(red) in '*Wine' type category and a heavy concentration on central scores in the 'quality' scale which will complicate the training process of the propective models hindering predictive performance.**
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
