@@ -78,13 +78,18 @@
 
 
 
-**After the PCA 99.9% of the variance can be explained with 3 principal components out of which PC 1 exerts the most influence as we can see from the scatter plot above , 'total sulfur dioxide' bears the main resposability for it as shown In the feature breakdown of PC 1 below.
+**After the PCA 99.9% of the variance can be explained with 3 principal components out of which PC 1 exerts the most influence as we can see from the scatter plot above , 'total sulfur dioxide' bears the main resposability for it as shown In the feature breakdown of PC 1 below.**
  
 
 
 
 ![Alt text](Resources/figs/combined/unscaled/Combined_Unscaled_PC_1.png)                **
 
+                      
+                      
+                      
+                      
+                      
                       PC1 top 3 feautres are 
 
                       total sulfur dioxide    0.972167
