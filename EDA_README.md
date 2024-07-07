@@ -93,11 +93,13 @@
 
 
 
-![Alt text](Resources/figs/combined/unscaled/Combined_Unscaled_PC_1.png)                **
+![Alt text](Resources/figs/combined/unscaled/Combined_Unscaled_PC_1.png)                
 
                       
                       
-                      
+<b>
+<b>
+<b>
                       
                       
                       
@@ -111,7 +113,9 @@
                       total sulfur dioxide    0.972167
                       free sulfur dioxide     0.230482
                       residual sugar          0.041020
-                                                                                      
+                                                           
+                                                           
+
 
 
 
