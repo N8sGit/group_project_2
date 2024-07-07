@@ -45,10 +45,9 @@
  ![Alt text](Resources/figs/combined/prelim/Combined_Quality_Count.png)
  
  
- ![Alt text](Resources/figs/combined/prelim/Combined_Quality_Count.png)
  
  
-**The figures above point out a extreme imbalance, approximately 3(white) to 1(red) in '*Wine' type category and a heavy concentration on central scores in the 'quality' scale which will complicate the training process of the propective models hindering predictive performance.**
+**The figures above point out a extreme imbalance, approximately 3(white) to 1(red) in '*Wine*' type category and a heavy concentration on central scores in the '*quality*' scale which will complicate the training process of the propective models hindering predictive performance.**
  
  
  
