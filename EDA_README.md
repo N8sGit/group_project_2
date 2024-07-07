@@ -436,6 +436,7 @@
  
                      
                      
+                     
                      PC1 top 9 feautres are 
 
                     fixed acidity          48.93%
@@ -443,6 +444,13 @@
                     pH                     43.85%
                     density                39.53%
 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
  
  ![Alt text](Resources/figs/red/scaled/red_scaled_PC_2.png)
  
@@ -456,6 +464,13 @@
                    alcohol                 38.61%
                    volatile acidity        27.49%
                    residual sugar          27.20%
+
+
+
+
+
+
+
 
  
  
@@ -477,8 +492,7 @@
  
  
  
- 
- 
+**After scaling like in the white wines the features which influenced the principal components changed in this case 'residual sugars' effect was greatly reduced by scaling  to the point that it was relegated to 5th place on PC 2. It appears that scaling could have an impact on model development, it will depend on how model behavior and performance.
  
  
  
