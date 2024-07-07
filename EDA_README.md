@@ -21,7 +21,9 @@
                     9   sulphates             6497 non-null     float64<br>
                     10  alcohol               6497 non-null     float64<br>
                     11  quality               6497 non-null     int64 <br> 
-                    12  Wine                  6497 non-null     object** 
+                    12  Wine                  6497 non-null     object** <br>
+<br>
+<br>
 
 
     fixed   volatile   citric   residual   chlorides      free      total      density     pH     sulphates   alcohol   quality    Wine
