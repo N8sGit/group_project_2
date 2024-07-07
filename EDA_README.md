@@ -408,7 +408,10 @@
  
  
  
- **It is important to note that when looking at the scaled white wines data by itself although as expected it takes a greater number of principal components to account for the explained variance the features that exert dominance within the PCs have changed as we can see above, relagating 'total sulfur dioxide' and 'free sulfur dioxied' to 3rd and 4th place.
+ 
+ 
+ 
+ **It is important to note that when looking at the scaled white wines data by itself although as expected it takes a greater number of principal components to account for the explained variance the features that exert dominance within the PCs have changed as we can see above, relagating 'total sulfur dioxide' and 'free sulfur dioxied' to 3rd and 4th place.**
 
  
  
