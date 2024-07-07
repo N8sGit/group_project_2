@@ -390,7 +390,7 @@
  
  
  
- ![Alt text](Resources/figs/white/scaled/white_scaled_PC_2.png)
+ ![Alt text](Resources/figs/white/scaled/white_scaled_PC_3.png)
  
  
  
@@ -432,13 +432,31 @@
  
  
  
- 
- 
- 
  ![Alt text](Resources/figs/red/scaled/red_scaled_PC_1.png)
  
+                     
+                     
+                     PC1 top 9 feautres are 
+
+                    fixed acidity          48.93%
+                    citric acid            46.36%
+                    pH                     43.85%
+                    density                39.53%
+
+ 
+ ![Alt text](Resources/figs/red/scaled/red_scaled_PC_2.png)
  
  
+         
+         
+                    PC2 top 9 feautres are 
+
+                   total sulfur dioxide    56.94%
+                   free sulfur dioxide     51.35%
+                   alcohol                 38.61%
+                   volatile acidity        27.49%
+                   residual sugar          27.20%
+
  
  
  
@@ -446,17 +464,13 @@
  
  
  
- 
- 
- 
- 
- 
- ![Alt text](Resources/figs/red/scaled/red_scaled_PC_3.png)
- 
- 
- 
- 
- 
+                    PC3 top 9 feautres are 
+
+                  alcohol                 47.16%
+                  volatile acidity        44.99%
+                  free sulfur dioxide     42.87%
+                  density                 33.88%
+                  total sulfur dioxide    32.24%
  
  
  
