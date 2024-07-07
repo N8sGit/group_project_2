@@ -432,7 +432,26 @@
  
  
  
+ 
+ 
+ 
  ![Alt text](Resources/figs/red/scaled/red_scaled_PC_1.png)
+ 
+ 
+ 
+ 
+ 
+ 
+ ![Alt text](Resources/figs/red/scaled/red_scaled_PC_3.png)
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ ![Alt text](Resources/figs/red/scaled/red_scaled_PC_3.png)
  
  
  
