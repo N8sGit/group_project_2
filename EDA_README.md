@@ -51,7 +51,7 @@
  
  
  
- ### **PCA**
+ ### **PCA  Unscaled**
  
  
  
@@ -97,29 +97,65 @@
 
                       
                       
- <br>
- <br>
- <br>
- <br>
+<br>
+<br>
+<br>
+
                       
                       
-                      
-                      
-                      
-                      
-                      
-                      
+                        PC1 top 3 feautres are 
+
+                      total sulfur dioxide    97.2%
+                      free sulfur dioxide     23.04%
+                      residual sugar           4.1%
+                                                           
+                                                           
+
+#### White wine
+
+
+
+![Alt text](Resources/figs/white/unscaled/white_unscaled_principal_components.png)
+
+
+
+
+
+
+
+![Alt text](Resources/figs/white/unscaled/white_unsc_pc_scatter.png)
+
+
+
+
+
+
+
+
                       PC1 top 3 feautres are 
 
-                      total sulfur dioxide    0.972167
-                      free sulfur dioxide     0.230482
-                      residual sugar          0.041020
-                                                           
-                                                           
+                     total sulfur dioxide    96.38%
+                     free sulfur dioxide     26.19%
+                     residual sugar           4.73%
 
 
 
 
+
+
+#### Red wine
+
+
+
+![Alt text](Resources/figs/red/unscaled/red_unscaled_principal_components.png)
+
+
+
+
+
+
+
+![Alt text](Resources/figs/red/unscaled/red_unsc_pc_scatter.png)
 
 
 
