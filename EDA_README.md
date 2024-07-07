@@ -230,9 +230,43 @@
  
  
  
+ **After scaling the increased number of outliers in every feature is evident in contrast with the unscaled data, also PCA shows that the explained variance will now need most of the principal components to account for it, although as in the unscaled data 'total sulfur dioxide' and 'free sulfur dioxide' impact the first PCs. Listed below are the first 5 PCs with there most impactful features.**
  
  
-  ![Alt text](Resources/figs/combined/scaled/combined_sc_pc_scatter.png)
+
+
+
+![Alt text](Resources/figs/combined/scaled/Combined_scaled_PC_1.png)
+ 
+ 
+ 
+ 
+ 
+ 
+                         PC1 top 9 feautres are 
+
+                        total sulfur dioxide    48.74%
+                        free sulfur dioxide     43.09%
+                        volatile acidity        38.07%
+                        residual sugar          34.59%
+ 
+ 
+
+
+
+![Alt text](Resources/figs/combined/scaled/Combined_scaled_PC_2.png)
+
+
+
+
+
+
+                         PC2 top 9 feautres are 
+
+                        total sulfur dioxide    56.94%
+                        free sulfur dioxide     51.35%
+                        alcohol                 38.61%
+                        volatile acidity        27.49%
 
 
 
@@ -243,12 +277,66 @@
 
 
 
+![Alt text](Resources/figs/combined/scaled/Combined_scaled_PC_3.png)
 
 
 
 
 
 
+
+                     PC3 top 9 feautres are 
+
+                    citric acid             59.05%
+                    pH                      45.53%
+                   fixed acidity            43.43%
+                   volatile acidity         30.72%
+
+
+
+
+
+
+
+![Alt text](Resources/figs/combined/scaled/Combined_scaled_PC_4.png)
+
+
+                   
+                   
+                   
+                   
+                   
+                   
+                   
+                   
+                   PC4 top 9 feautres are 
+
+                  sulphates               0.640536
+                  pH                      0.414551
+                  free sulfur dioxide     0.357279
+                  citric acid             0.264300
+
+
+
+
+
+
+
+
+
+
+![Alt text](Resources/figs/combined/scaled/Combined_scaled_PC_5.png)
+
+
+
+
+
+                   PC5 top 9 feautres are 
+
+                  chlorides               0.614391
+                  pH                      0.453376
+                  residual sugar          0.353362
+                  density                 0.306561
 
  
  
