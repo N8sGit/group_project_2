@@ -6,10 +6,11 @@
 
 ### Dataset
 
+
 #### Column                           Non-Null Count     Dtype 
-                  **Data columns (total 13 columns):**
+                    Data columns (total 13 columns):
                     ---  ------                --------------    -----  
-                    **0   fixed acidity         6497 non-null     float64
+                    0   fixed acidity         6497 non-null     float64
                     1   volatile acidity      6497 non-null     float64
                     2   citric acid           6497 non-null     float64
                     3   residual sugar        6497 non-null     float64
