@@ -350,7 +350,6 @@
  
  ![Alt text](Resources/figs/white/scaled/white_scaled_principal_components.png)
  
- ![Alt text](Resources/figs/white/scaled/white_sc_pc_scatter.png)
  
  
  
@@ -413,6 +412,56 @@
  
  **It is important to note that when looking at the scaled white wines data by itself although as expected it takes a greater number of principal components to account for the explained variance the features that exert dominance within the PCs have changed as we can see above, relagating 'total sulfur dioxide' and 'free sulfur dioxied' to 3rd and 4th place.**
 
+ 
+ 
+ 
+ 
+ 
+ ---
+ 
+ 
+ ### Red Wines
+ 
+ 
+ 
+ ![Alt text](Resources/figs/red/scaled/red_scaled_principal_components.png)
+ 
+ 
+ 
+ 
+ ![Alt text](Resources/figs/red/scaled/red_scaled_PC_1.png)
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
  
  
  
