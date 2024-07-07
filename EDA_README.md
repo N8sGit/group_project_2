@@ -7,21 +7,21 @@
 ### Dataset
 
 #### Column                           Non-Null Count     Dtype 
-**Data columns (total 13 columns):**<br>
----  ------                --------------    -----<br>  
- **0   fixed acidity         6497 non-null     float64<br>
- 1   volatile acidity      6497 non-null     float64<br>
- 2   citric acid           6497 non-null     float64<br>
- 3   residual sugar        6497 non-null     float64<br>
- 4   chlorides             6497 non-null     float64<br>
- 5   free sulfur dioxide   6497 non-null     float64<br>
- 6   total sulfur dioxide  6497 non-null     float64<br>
- 7   density               6497 non-null     float64<br>
- 8   pH                    6497 non-null     float64<br>
- 9   sulphates             6497 non-null     float64<br>
- 10  alcohol               6497 non-null     float64<br>
- 11  quality               6497 non-null     int64 <br> 
- 12  Wine                  6497 non-null     object** 
+                  **Data columns (total 13 columns):**<br>
+                    ---  ------                --------------    -----<br>  
+                    **0   fixed acidity         6497 non-null     float64<br>
+                    1   volatile acidity      6497 non-null     float64<br>
+                    2   citric acid           6497 non-null     float64<br>
+                    3   residual sugar        6497 non-null     float64<br>
+                    4   chlorides             6497 non-null     float64<br>
+                    5   free sulfur dioxide   6497 non-null     float64<br>
+                    6   total sulfur dioxide  6497 non-null     float64<br>
+                    7   density               6497 non-null     float64<br>
+                    8   pH                    6497 non-null     float64<br>
+                    9   sulphates             6497 non-null     float64<br>
+                    10  alcohol               6497 non-null     float64<br>
+                    11  quality               6497 non-null     int64 <br> 
+                    12  Wine                  6497 non-null     object** 
 
 
     fixed   volatile   citric   residual   chlorides      free      total      density     pH     sulphates   alcohol   quality    Wine
