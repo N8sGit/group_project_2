@@ -152,6 +152,8 @@
 
 
 
+
+
 ---
 
 ### **Red wine**
@@ -195,15 +197,42 @@
 
 
 
+
+
+
 **When examining the wine categories individually almost all of the variance can be explained by first principal component PC 1 , and like the combined data set in white wines 'total sulfur dioxide' weilds significant sway  within it as oposed to the red wines where 'residual sugar' is the feature with the most impact.**
 
 
 
+---
+---
+
+
+### **PCA  Scaled**
 
 
 
 
-
+ ![Alt text](Resources/figs/combined/scaled/Combined_scaled_Box_Plot.png)
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ ![Alt text](Resources/figs/combined/scaled/combined_scaled_principal_components.png)
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  ![Alt text](Resources/figs/combined/scaled/combined_sc_pc_scatter.png)
 
 
 
