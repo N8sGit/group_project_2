@@ -131,6 +131,16 @@
 
 
 
+![Alt text](Resources/figs/white/unscaled/Unscaled_PC_1.png)                
+
+                      
+                      
+<br>
+<br>
+<br>
+
+
+
 
                       PC1 top 3 feautres are 
 
@@ -157,6 +167,27 @@
 
 ![Alt text](Resources/figs/red/unscaled/red_unsc_pc_scatter.png)
 
+
+
+
+
+
+
+![Alt text](Resources/figs/white/unscaled/Unscaled_PC_1.png)                
+
+                      
+                      
+<br>
+<br>
+<br>
+
+
+
+                        PC1 top 10 feautres are 
+
+                       residual sugar          0.995192
+                       alcohol                 0.082723
+                       total sulfur dioxide    0.042789
 
 
 
