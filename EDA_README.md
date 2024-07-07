@@ -230,7 +230,7 @@
  
  
  
- **After scaling the increased number of outliers in every feature is evident in contrast with the unscaled data, also PCA shows that the explained variance will now need most of the principal components to account for it, although as in the unscaled data 'total sulfur dioxide' and 'free sulfur dioxide' impact the first PCs. Listed below are the first 5 PCs with there most impactful features.**
+ **After scaling the increased number of outliers in every feature is evident in contrast with the unscaled data, also PCA shows that the explained variance will now need most of the principal components to account for it, although as in the unscaled data 'total sulfur dioxide' and 'free sulfur dioxide' impact the first PCs but are relagated by 'citric acid', sulphates and 'chlorides' in the rest. Listed below are the first 5 PCs with there most impactful features.**
  
  
 
@@ -289,8 +289,8 @@
 
                     citric acid             59.05%
                     pH                      45.53%
-                   fixed acidity            43.43%
-                   volatile acidity         30.72%
+                    fixed acidity           43.43%
+                    volatile acidity        30.72%
 
 
 
